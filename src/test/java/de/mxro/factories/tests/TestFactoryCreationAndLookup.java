@@ -1,12 +1,13 @@
 package de.mxro.factories.tests;
 
+import delight.factories.Configuration;
+import delight.factories.Dependencies;
+import delight.factories.Factories;
+import delight.factories.Factory;
+import delight.factories.FactoryCollection;
+
 import org.junit.Test;
 
-import de.mxro.factories.Configuration;
-import de.mxro.factories.Dependencies;
-import de.mxro.factories.Factories;
-import de.mxro.factories.Factory;
-import de.mxro.factories.FactoryCollection;
 import junit.framework.Assert;
 
 public class TestFactoryCreationAndLookup {

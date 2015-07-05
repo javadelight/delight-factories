@@ -1,6 +1,6 @@
-package de.mxro.factories;
+package delight.factories;
 
-import de.mxro.factories.internal.FactoryCollectionImpl;
+import delight.factories.internal.FactoryCollectionImpl;
 
 /**
  * Entry point for factories module. Allows to create new

@@ -3,7 +3,7 @@
  * 
  * All rights reserved.
  ******************************************************************************/
-package de.mxro.factories.internal;
+package delight.factories.internal;
 
 public class DummyEntryPoint {
 

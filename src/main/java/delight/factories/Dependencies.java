@@ -1,4 +1,4 @@
-package de.mxro.factories;
+package delight.factories;
 
 /**
  * <p>

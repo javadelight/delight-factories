@@ -1,12 +1,12 @@
-package de.mxro.factories.internal;
+package delight.factories.internal;
+
+import delight.factories.Configuration;
+import delight.factories.Dependencies;
+import delight.factories.Factory;
+import delight.factories.FactoryCollection;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import de.mxro.factories.Configuration;
-import de.mxro.factories.Dependencies;
-import de.mxro.factories.Factory;
-import de.mxro.factories.FactoryCollection;
 
 /**
  * <a>A simple implementation of the {@link FactoryCollection} interface. Note

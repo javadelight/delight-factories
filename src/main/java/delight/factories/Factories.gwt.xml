@@ -15,7 +15,7 @@
    
 
   <!-- Specify the app entry point class.    -->                    
-  <entry-point class='de.mxro.factories.internal.DummyEntryPoint'/> 
+  <entry-point class='delight.factories.internal.DummyEntryPoint'/> 
 
   <!-- Specify the paths for translatable code                    -->
   <source path=''/>

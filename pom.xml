@@ -14,7 +14,7 @@
 			org.junit,
 			*
 		</module.importedPackages>
-		<module.exportedPackages>!de.mxro.factories.internal*,de.mxro.factories*
+		<module.exportedPackages>!delight.factories.internal*,delight.factories*
 		</module.exportedPackages>
 		<module.serviceDefinitions>
 		</module.serviceDefinitions>
