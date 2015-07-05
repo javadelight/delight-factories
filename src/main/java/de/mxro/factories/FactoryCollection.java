@@ -6,21 +6,25 @@ package de.mxro.factories;
  * instead of trying to instantiate objects from one factory, it automatically
  * forwards calls to all registered factories.
  * 
- * 
  * @author Max Rohde
- *
  */
+@SuppressWarnings("all")
 public interface FactoryCollection extends Factory<Object, Configuration, Dependencies> {
-
     /**
-     * <p>Registers a new factory for this collection.
-     * <p>If a {@link Configuration} compatible with this factory is passed to subsequent calls of {@link FactoryCollection#create(Configuration, Dependencies), 
-     *  this factory will be used to instantiate the object.
-     *  <p>The collection will always use the <b>first</b> factory registered to instantate objects. 
+     * <p>
+     * Registers a new factory for this collection.
+     * <p>
+     * If a {@link Configuration} compatible with this factory is passed to
+     * subsequent calls of {@link FactoryCollection#create(Configuration,
+     * Dependencies), this factory will be used to instantiate the object.
+     * <p>
+     * The collection will always use the <b>first</b> factory registered to
+     * instantate objects. }
      * 
-     * @param factory The factory to be added to the collection.
+     * @param factory
+     *            The factory to be added to the collection.
      */
-    public void register(Factory<?, ?, ?> factory);
+    public abstract void register(final Factory<?, ?, ?> factory);
 
     /**
      * <p>
@@ -31,6 +35,5 @@ public interface FactoryCollection extends Factory<Object, Configuration, Depend
      * 
      * @param factory
      */
-    public void replace(Configuration configuration, Factory<?, ?, ?> factory);
-
+    public abstract void replace(final Configuration configuration, final Factory<?, ?, ?> factory);
 }
