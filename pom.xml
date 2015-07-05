@@ -2,11 +2,11 @@
 <!-- Template: Source + GWT + in workspace dependencies 27.11.2010 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<groupId>de.mxro.factories</groupId>
+	<groupId>org.javadelight</groupId>
 	<artifactId>factories</artifactId>
 	<version>0.0.3</version>
 	<description>Allows definition and management of lightweight factories.</description>
-	<url>https://github.com/appjangle/factories</url>
+	<url>https://github.com/javadelight/factories</url>
 		
 	<properties>
 		<module.gwtVersion>2.2.0</module.gwtVersion>
