@@ -3,7 +3,7 @@
 delight-factories
 =========
 
-A simple API for factories.
+A simple API for factories based on simple plain Java objects.
 
 Part of [Java Delight](https://github.com/javadelight/delight-main#java-delight-suite).
 
@@ -38,10 +38,17 @@ factories.register(new Factory<String, MyConfiguration, Dependencies>() {
 	@Override
 	public String create(MyConfiguration conf, Dependencies dependencies) {
 		
-		return "Hello, World again!";
+		return "Hello, World!";
 	}
 	
 });
+```
+
+Instantiate an object:
+
+```java
+Object created = factories.create(new MyConfiguration(), new MyDependencies());
+// created == "Hello, WorlD!";
 ```
 
 ## Links
