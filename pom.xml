@@ -329,19 +329,7 @@
 
 		</resources>
 
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ssh-external</artifactId>
-				<version>2.5</version>
-			</extension>
-
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ssh</artifactId>
-				<version>2.5</version>
-			</extension>
-		</extensions>
+		
 	</build>
 
 	<distributionManagement>
@@ -365,10 +353,30 @@
 			</roles>
 			<timezone>+10</timezone>
 			<organization>pureleap</organization>
-			<organizationUrl>http://pureleap.com</organizationUrl>
+			<organizationUrl>https://www.pureleap.com</organizationUrl>
 		</developer>
 	</developers>
 
-	
+	<scm>
+		<connection>scm:git:git@github.com:javadelight/delight-factories.git</connection>
+		<url>https://github.com/javadelight/delight-factories</url>
+		<developerConnection>scm:git:git@github.com:javadelight/delight-factories.git
+		</developerConnection>
+	</scm>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+		<license>
+			<name>MIT License</name>
+			<url>http://www.opensource.org/licenses/mit-license.php</url>
+		</license>
+		<license>
+			<name>GPL</name>
+			<url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+		</license>
+	</licenses>
 	
 </project>
