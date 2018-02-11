@@ -10,6 +10,12 @@ Part of [Java Delight](https://github.com/javadelight/delight-main#java-delight-
 ## Usage
 
 
+Create a collection of factories
+
+```java
+FactoryCollection factories = Factories.create();
+```
+
 
 
 ## Links
