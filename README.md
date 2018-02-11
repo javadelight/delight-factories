@@ -22,23 +22,21 @@ Define classes for a factory:
 private static class MyConfiguration implements Configuration {}
 	
 private static class MyDependencies implements Dependencies {}
-	
-private static class MyOtherConfiguration implements Configuration {}
 ```
 
 Register a factory:
 
 ```java
 
-factories.register(new Factory<String, MyOtherConfiguration, Dependencies>() {
+factories.register(new Factory<String, MyConfiguration, Dependencies>() {
 
 	@Override
 	public boolean canInstantiate(Configuration conf) {
-		return (conf instanceof MyOtherConfiguration);
+		return (conf instanceof MyConfiguration);
 	}
 
 	@Override
-	public String create(MyOtherConfiguration conf, Dependencies dependencies) {
+	public String create(MyConfiguration conf, Dependencies dependencies) {
 		
 		return "Hello, World again!";
 	}
