@@ -51,6 +51,22 @@ Object created = factories.create(new MyConfiguration(), new MyDependencies());
 // created == "Hello, WorlD!";
 ```
 
+## Maven Dependency
+
+```xml
+<dependency>
+    <groupId>org.javadelight</groupId>
+    <artifactId>delight-factories</artifactId>
+    <version>[insert latest version]</version>
+</dependency>
+```
+
+This artifact is available on [Maven Central](https://search.maven.org/#search%7Cga%7C1%7Cdelight-factories) and 
+[BinTray](https://bintray.com/javadelight/javadelight/delight-factories).
+
+[![Maven Central](https://img.shields.io/maven-central/v/org.javadelight/delight-factories.svg)](https://search.maven.org/#search%7Cga%7C1%7Cdelight-factories)
+
+
 ## Links
 
 -> [All Project Reports](http://modules.appjangle.com/delight-factories/latest/project-reports.html)
